@@ -1,0 +1,19 @@
+{
+  "name": "social-redirect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "build": "npx webpack scripts.js",
+    "start": "npx webpack scripts.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mobile-detect": "^1.4.4",
+    "webpack": "^4.42.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}
